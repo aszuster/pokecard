@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Pokecards</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	<body>
+		<main>
+			<header>
+				<a href="http://localhost/pokecard/index.html"><img src="img/logo.png"/></a>
+			</header>
+			<section>
+
+					<select id="mazos">
+						<option value="" disabled selected>Seleccionar</option>
+  						<option value="base1">Mazo 1</option>
+  						<option value="base2">Mazo 2</option>
+  						<option value="base3">Mazo 3</option>
+  						<option value="base4">Mazo 4</option>
+   						<option value="base5">Mazo 5</option>
+  						<option value="base6">Mazo 6</option> 						
+					</select>
+				<div class="container">
+				</div>
+
+			</section>
+			<div id="overlay">
+				<div id="containerInfo">
+					<img id="close" src=img/close.png>
+					<div id="modalContent">
+						
+					</div>
+				</div>
+			</div>
+			<div id="overlayCarga">
+				<img id="loading" src="img/esperar.gif"/>
+			</div>	
+		</main>
+
+		<!-- scripts -->
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+	</body>
+</html>
